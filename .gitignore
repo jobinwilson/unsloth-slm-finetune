@@ -1,0 +1,25 @@
+__pycache__/
+## env file
+.env
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.pyc
+
+
+# Unsloth cache (default location)
+unsloth_compiled_cache/
+unsloth_compiled_cache/*
+
+# PyTorch and Hugging Face caches, gguf etc
+*.ckpt
+*.pt
+*.bin
+*.safetensors
+*.gguf
+## intermediate files
+gemma3-1b-sentiment-ft/
+gemma3-1b-sentiment-ft/*
+gemma3-1b-sentiment-ft-adapter/
+gemma3-1b-sentiment-ft-adapter/*
+trainer_output/
+llama.cpp/
